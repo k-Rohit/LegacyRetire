@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 190px;
+    background-color: black;
+    height: 600px;
+    /* align-items: flex-start; */
+}
+
+.container .logo-text {
+font-family: 'Bevan', serif;
+font-weight: bolder;
+font-size: 160px;
+color: #38B6FF;
+}
+
+.features ul{
+list-style-type: none;
+font-size: 30px;
+line-height: 50px;
+color: #38B6FF;
+font-family: 'Poppins', sans-serif;
+}

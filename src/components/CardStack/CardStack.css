@@ -1,0 +1,60 @@
+.Card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  flex: 1;
+  max-width: 200px;
+}
+
+.card p {
+  display: none;
+}
+
+.card.hovered {
+  background: #f0f0f0;
+}
+
+.card.hovered p {
+  display: block;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-line {
+  display: flex;
+
+}
+
+.one {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.three {
+  padding-bottom: 50px;
+}

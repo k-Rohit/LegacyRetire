@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Poppins:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+.main-container-learn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    padding-top: 40px;
+}
+
+.learn-text-container {
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 100px;
+    border-bottom: 10px solid #066298;
+    border-radius: 10px;
+  }
+  
+  .learn-text {
+    display: inline;
+    padding-left: 40px !important;
+  }
+  
+
+.content-list {
+    padding-left: 15px;
+    line-height: 40px;
+
+}
+
+.content-list ul {
+    list-style-type: none;
+}
+
+.content-list ul li{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.image-container {
+    padding-left: 150px;
+}
+
+.explore-btn {
+    padding-left: 55px;
+}
