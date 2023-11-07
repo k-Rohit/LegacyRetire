@@ -1,7 +1,8 @@
-import React from 'react'
-import './Hero.css'
-import logoImage from '../../assets/logo.png'
-import CardStack from '../CardStack/CardStack'
+import React from 'react';
+import './Hero.css';
+import CardStack from '../CardStack/CardStack';
+import Grid from '@mui/material/Grid'; // Grid version 1
+
 
 
 function Hero() {

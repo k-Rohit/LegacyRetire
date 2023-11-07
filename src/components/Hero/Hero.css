@@ -9,13 +9,16 @@
     height: 600px;
     /* align-items: flex-start; */
 }
+.logo-text {
+    font-family: 'Poppins', serif;
+    font-weight: bolder;
+    font-size: 160px;
+    background: linear-gradient(45deg, #63aaf2, #f757f4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 
-.container .logo-text {
-font-family: 'Bevan', serif;
-font-weight: bolder;
-font-size: 160px;
-color: #38B6FF;
-}
+  }
 
 .features ul{
 list-style-type: none;

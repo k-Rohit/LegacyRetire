@@ -1,0 +1,29 @@
+/* Add this to reduce the space between lines */
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Poppins:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+.chat-text p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 80px;
+  }
+  
+  .chatbot-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    /* width: 100px; */
+  }
+  
+  .chat-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    background: linear-gradient(45deg, #63aaf2, #f757f4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-top: 50px;
+  }
+  
+  

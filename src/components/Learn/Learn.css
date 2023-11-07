@@ -13,11 +13,12 @@
     font-size: 100px;
     border-bottom: 10px solid #066298;
     border-radius: 10px;
+   margin-left: 30px;
   }
   
   .learn-text {
     display: inline;
-    padding-left: 40px !important;
+    padding-left: -100px;
   }
   
 
