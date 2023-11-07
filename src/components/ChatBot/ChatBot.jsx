@@ -3,8 +3,6 @@ import './ChatBot.css';
 import ReactPlayer from 'react-player';
 import videoFile from '../../assets/bot1.mp4';
 
-
-
 function ChatBot() {
     return (
       <div className='chatbot-container'>

@@ -2,23 +2,42 @@
 
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 190px;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 120px;
     background-color: black;
     height: 600px;
+    align-items: center;
     /* align-items: flex-start; */
 }
 .logo-text {
-    font-family: 'Poppins', serif;
-    font-weight: bolder;
-    font-size: 160px;
-    background: linear-gradient(45deg, #63aaf2, #f757f4);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  font-family: 'Poppins', serif;
+  font-weight: bolder;
+  font-size: 160px;
+  background: linear-gradient(45deg, #63aaf2, #f757f4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 80px; /* Adjust this value as needed */
+}
 
-  }
+.slogan-text {
+  font-weight: bolder;
+  font-size: 60px;
+  background: linear-gradient(45deg, #a9ccee, #885e88); /* Add gradient background */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-top: 100px; /* Adjust this value as needed */
+  font-family: 'Poppins', sans-serif; /* You can also specify the font-family here */
+}
+
+.quote {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-style: italic;
+}
 
 .features ul{
 list-style-type: none;

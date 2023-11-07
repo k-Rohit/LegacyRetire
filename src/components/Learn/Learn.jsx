@@ -1,12 +1,34 @@
-import React from 'react'
-import './Learn.css'
+import React, { useEffect } from 'react';
+import './Learn.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPen } from '@fortawesome/free-solid-svg-icons';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import learnLogo from '../../assets/learnlogo.png';
+import { faPen, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
+import lottie from 'lottie-web';
+import animationData from '../../assets/Animation.json'; // Replace with the correct path to your animation JSON
 
 function Learn() {
+    const navigate = useNavigate();
+
+    const handleExploreClick = () => {
+        navigate('/resource');
+    };
+
+    useEffect(() => {
+        // Load the Lottie animation
+        const animationContainer = document.getElementById('animation-container');
+
+        if (animationContainer) {
+            const anim = lottie.loadAnimation({
+                container: animationContainer,
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                animationData: animationData, // Use the imported animationData
+            });
+        }
+    }, []);
+
     return (
         <div className='main-container-learn'>
             <div>
@@ -28,24 +50,22 @@ function Learn() {
                 </div>
                 <div className='explore-btn'>
                     <Button
-                        variant="contained"
-                        color="primary"
+                        variant='outlined'
+                        color='primary'
                         sx={{
-                            backgroundColor: '#38B6FF',
+                            // backgroundColor: '#38B6FF',
                             borderRadius: '5px',
+                            color: 'black'
                         }}
+                        onClick={handleExploreClick}
                     >
                         Explore <FontAwesomeIcon icon={faArrowRight} />
                     </Button>
-
                 </div>
-
             </div>
-            <div className='image-container'>
-                <img src={learnLogo} />
-            </div>
+            <div id='animation-container' className='animation-container'></div>
         </div>
-    )
+    );
 }
 
-export default Learn
+export default Learn;

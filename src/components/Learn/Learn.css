@@ -11,9 +11,9 @@
     display: inline-block;
     padding-left: 50px;
     font-size: 100px;
-    border-bottom: 10px solid #066298;
+    /* border-bottom: 10px solid #066298; */
     border-radius: 10px;
-   margin-left: 30px;
+   /* margin-left: 30px; */
   }
   
   .learn-text {
@@ -43,4 +43,8 @@
 
 .explore-btn {
     padding-left: 55px;
+}
+
+.animation-container {
+    padding-left: 190px;
 }
