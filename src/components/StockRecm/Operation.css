@@ -1,8 +1,81 @@
-input {
-  padding: 10px;
-  margin-right: 10px;
+.operation-container {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 1000px;
+  padding-top: 1px;
+  justify-content: space-around;
+  
 }
 
-button {
-  padding: 10px 20px;
+.operation-heading {
+  font-size: 6em;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #0091ff, #FF6347); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  color: transparent;
 }
+
+.operation-form {
+  margin-top: 20px;
+}
+
+.operation-input {
+  width: 350px; /* Increase the width */
+  padding: 15px; /* Increase the padding for more height */
+  margin-bottom: 20px; /* Add some space below the input */
+  border-radius: 10px; /* Add curvature */
+  font-size: 18px; /* Increase the font size */
+}
+
+.operation-button {
+  padding: 15px 30px; /* Increase the padding for more height */
+  border-radius: 10px; /* Add curvature */
+  font-size: 18px; /* Increase the font size */
+}
+
+.operation-message {
+  margin-top: 20px;
+}
+
+.result-box {
+  background-color:rgb(25, 26, 26);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  max-width: 600px; /* Adjust the value as per your preference */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.operation-message {
+  color: white;
+  font-size: 20px;
+}
+
+
+.recommendation-message {
+  font-size: 2em; /* Increase font size */
+  font-weight: bold;
+  background-image: linear-gradient(to right, #FFD700, #47ddff); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  color: transparent;
+}
+
+
+.plot-button {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #00b7ff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.plot-button:hover {
+  background-color: #4759ff;
+}
+

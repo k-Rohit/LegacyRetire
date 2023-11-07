@@ -22,3 +22,19 @@ function StockSugg() {
 }
 
 export default StockSugg;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
