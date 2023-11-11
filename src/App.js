@@ -6,6 +6,7 @@ import Learn from './components/Learn/Learn';
 import NavBar from './components/NavBar/NavBar';
 import Resource from './components/Resource/Resource';
 import { Route, Routes } from "react-router";
+import ChatApplication from './components/ChatApplication/ChatApplication';
 function App() {
   return (
     <div className="App">
@@ -14,8 +15,8 @@ function App() {
        <Learn/>
        <ChatBot/>
        <ChatBotIntegration/>
-       {/* <Resource/> */}
-       {/* <Learn/> */}
+       <Resource/>
+       <ChatApplication/>
     </div>
   );
 }
