@@ -1,26 +1,52 @@
-import React from 'react';
+import React ,{ useEffect }from 'react';
 import './ChatBot.css';
-import ReactPlayer from 'react-player';
-import videoFile from '../../assets/bot1.mp4';
+import lottie from 'lottie-web';
+import chatAnim from '../../assets/chatAnim.json'; 
+import Button from '@mui/material/Button';
+import {faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useNavigate } from 'react-router-dom';
 
 function ChatBot() {
+  const navigate = useNavigate()
+  useEffect(() => {
+    // Load the Lottie animation
+    const animationContainer = document.getElementById('chatanim');
+
+    if (animationContainer) {
+        const anim = lottie.loadAnimation({
+            container: animationContainer,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: chatAnim, // Use the imported animationData
+        });
+    }
+}, []);
+
     return (
       <div className='chatbot-container'>
         <div className='video'>
-          <ReactPlayer
-            url={videoFile} // Provide the URL of your video file
-            style={{ width: '100px', height: '500px' }} 
-            controls={false} // Show video controls
-            playing={true} // Set to true to auto-play the video
-            playsinline={true} // Set to true to enable inline playback on iOS devices
-            muted={true} // Mute the video to enable autoplay
-            volume={0} // Set the volume to 0
-          />
+        <div id='chatanim' className='chatanim'></div>
         </div>
         <div className='chat-text'>
           <p>Your</p>
           <p>Personal</p>
-          <p>Finance Assistant</p>
+          <p>Finance Assistant.</p>
+          <div className='chat-btn'>
+            <Button
+                        variant='outlined'
+                        color='primary'
+                        sx={{
+                            // backgroundColor: '#38B6FF',
+                            borderRadius: '10px',
+                            color: 'white',
+                        }}
+                        onClick = {() => navigate('bot')}
+                    >
+                        Chat <FontAwesomeIcon icon={faArrowRight} />
+                    </Button>
+            </div>
         </div>
       </div>
     );

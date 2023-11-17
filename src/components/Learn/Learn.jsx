@@ -30,7 +30,7 @@ function Learn() {
     }, []);
 
     return (
-        <div className='main-container-learn'>
+        <div className='main-container-learn' id="learn">
             <div>
                 <div className='learn-text-container'>
                     <div className='learn-text'>

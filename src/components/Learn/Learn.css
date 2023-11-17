@@ -5,6 +5,7 @@
     font-weight: bolder;
     display: flex;
     padding-top: 40px;
+    
 }
 
 .learn-text-container {
@@ -13,12 +14,21 @@
     font-size: 100px;
     /* border-bottom: 10px solid #066298; */
     border-radius: 10px;
+    
    /* margin-left: 30px; */
   }
   
   .learn-text {
     display: inline;
     padding-left: -100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    background: linear-gradient(45deg, #147ee8, #720670);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* padding-top: 50px;
+    padding-left: 100px; */
   }
   
 

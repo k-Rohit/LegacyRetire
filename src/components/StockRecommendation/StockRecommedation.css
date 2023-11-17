@@ -1,13 +1,13 @@
 /* Add this to reduce the space between lines */
 @import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Poppins:ital,wght@0,300;0,400;1,200;1,400&display=swap');
 
-.chat-text p {
+.stock-text p {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     line-height: 80px;
   }
   
-  .chatbot-container {
+  .stock-container {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
@@ -16,7 +16,7 @@
     /* width: 100px; */
   }
   
-  .chat-text {
+  .stock-text {
     font-family: 'Poppins', sans-serif;
     font-size: 80px;
     background: linear-gradient(45deg, #63aaf2, #f757f4);
@@ -26,9 +26,9 @@
     padding-top: 50px;
   }
 
-  .chatanim {
-    width: 380px;
-    height: 380px;
+  .stockanim {
+    width: 400px;
+    height: 400px;
   }
   
   

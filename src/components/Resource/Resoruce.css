@@ -3,25 +3,14 @@
 .resource-container {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
     justify-content: center;
     align-items: center;
 }
 
-.resource-text {
-    font-weight: bolder;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 20px;
-}
-
-.rcard-container {
-    display: flex;
-    flex-direction: row;
+.MuiTabs-root {
     justify-content: center;
 }
 
-.card-1 {
-    padding-right: 20px;
-}
+
+  /* Add these styles for centering within TabPanel */
+  
