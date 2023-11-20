@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import ChatApplication from './components/ChatApplication/ChatApplication';
 import ChatBot from './components/ChatBot/ChatBot';
 import ChatBotIntegration from './components/ChatBotIntegration';
+import DocumentVault from './components/DocVault/DocumentVault';
 import Hero from './components/Hero/Hero';
 import Learn from './components/Learn/Learn';
 import NavBar from './components/NavBar/NavBar';
@@ -18,10 +19,10 @@ function HomeComponent() {
       <Hero/>
       <Learn/>
       <ChatBot/>
-      <ChatBotIntegration/>
+      {/* <ChatBotIntegration/> */}
       <RecommendationInfo/>
       <StockRecommendation/>
-      {/* <Operation/> */}
+     {/* <DocumentVault/> */}
     </div>
   )
 }
@@ -38,13 +39,6 @@ function App() {
         <Route path="/resource" element={<Resource />}/>
         <Route path="/stock" element={<Operation/>}/>
       </Routes>
-      {/* <Hero/>
-      <Learn/>
-      <ChatBot/>
-      <ChatBotIntegration/>
-      <ChatApplication/>
-      <Resource/>
-      <RecommendationInfo/> */}
     </div>
   );
 }

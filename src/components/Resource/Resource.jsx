@@ -41,7 +41,7 @@ function LabTabs() {
     } else if (newValue === '2') {
       fetchVideos('retirement planning');
     } else if (newValue === '3') {
-      fetchVideos('how to work and earn money after retirement?');
+      fetchVideos('Enterprenuership stories after retirement');
     }
   };
 

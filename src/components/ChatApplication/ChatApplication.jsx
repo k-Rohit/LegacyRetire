@@ -1,4 +1,3 @@
-import { MendableSearchBar } from '@mendable/search'
 import { MendableInPlace } from "@mendable/search"
 import './ChatApplication.css'
 const style = { darkMode: true, accentColor: "#f757f4" }

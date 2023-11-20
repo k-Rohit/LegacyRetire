@@ -1,8 +1,9 @@
-operation-container {
+
+.operation-container {
     background-color: black;
     color: white;
     text-align: center;
-    height: 5000px;
+    height:2000px;
     padding-top: 1px;
     justify-content: center;
     display: flex;
@@ -14,7 +15,7 @@ operation-container {
   .operation-heading {
     font-size: 6em;
     font-weight: bold;
-    background-image: linear-gradient(to right, #0091ff, #FF6347); /* Gradient color */
+    background-image: linear-gradient(to right,  #63aaf2, #f757f4); /* Gradient color */
     -webkit-background-clip: text;
     background-clip: text; /* Apply gradient to text */
     color: transparent;

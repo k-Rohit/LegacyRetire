@@ -19,7 +19,7 @@ function ChatBot() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            animationData: chatAnim, // Use the imported animationData
+            animationData: chatAnim,
         });
     }
 }, []);
